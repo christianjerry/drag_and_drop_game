@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make document draggable</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h3>SCORE:<span id="score"> 0</span> point(s)</h3>
+    <h3>TIMING:<span id="timing"> 60</span> secondes</h3>
+    <div class="flexDiv">
+    <div class="colors">
+        <div id="red" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="blue" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="yellow" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="magenta" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="grey" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="purple" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="coral" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="green" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="black" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+        <div id="orange" ondrop="drop(event)" ondragleave="removeStyle(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="names">
+        <h1 draggable="true"  id="three" ondragstart="drag(event)" code="blue">Blue</h1>
+        <h1 draggable="true" id="two" ondragstart="drag(event)" code="yellow">Yellow</h1>
+        <h1 draggable="true" id="four" ondragstart="drag(event)" code="magenta">magenta</h1>
+        <h1 draggable="true" id="five" ondragstart="drag(event)" code="black">black</h1>
+        <h1 draggable="true" id="six" ondragstart="drag(event)" code="grey">grey</h1>
+        <h1 draggable="true" id="seven" ondragstart="drag(event)" code="coral">coral</h1>
+        <h1 draggable="true" id="eight" ondragstart="drag(event)" code="purple">Purple</h1>
+        <h1 draggable="true" id="nine" ondragstart="drag(event)" code="orange">Orange</h1>
+        <h1 draggable="true" id="one" ondragstart="drag(event)" code="red">Red</h1>
+        <h1 draggable="true" id="ten" ondragstart="drag(event)" code="green">Green</h1>
+    </div>
+</div>
+    <button class="startBtn">Commencer</button>
+    <div class="successAlrt"><img src="./img/success.png" alt="" class="sucessImg"><h4>Bravo!</h4></div>
+    <div class="errorAlrt"><img src="./img/error.png" alt="" class="sucessImg"><h4>Ohps!</h4></div>
+    <audio src="./media/success.wav" id="mySuccessAudio"></audio>
+    <audio src="./media/failed.wav" id="myFailedAudio"></audio>
+    <!-- <script src="sweetalert/sweetalert.js"></script> -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+       
+    </script>
+</body>
+
+</html>

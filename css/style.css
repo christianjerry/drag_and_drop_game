@@ -1,0 +1,176 @@
+      body {
+    /* background-color: rgba(10, 167, 181, 0.17); */
+      background-image: url("../img/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+
+      .flexDiv {
+          display: flex;
+          flex-direction: row;
+      }
+
+      .colors {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          color: white;
+          text-align: center;
+      }
+
+      .colors h1 {
+          font-size: 14pt;
+          position: relative;
+          top: 30%;
+      }
+
+      #red {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: red;
+      }
+
+      #blue {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: blue;
+      }
+
+      #yellow {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: yellow;
+      }
+
+      #orange {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: orange;
+      }
+
+      #purple {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: purple;
+      }
+
+      #green {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: green;
+      }
+
+      #coral {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: coral;
+      }
+
+      #black {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: black;
+      }
+
+      #magenta {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: magenta;
+      }
+
+      #grey {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: grey;
+      }
+
+      #orange {
+          width: 120px;
+          margin: 10px;
+          height: 120px;
+          background-color: orange;
+      }
+
+      .names {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          flex-wrap: wrap;
+          /* background-color: rgb(232, 229, 229); */
+      }
+
+      .names h1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 120px;
+          height: 120px;
+          font-size: 12pt;
+          cursor: pointer;
+          user-select: none;
+          margin: 4px;
+          background-color: rgb(255, 255, 255);
+      }
+
+      .startBtn {
+          padding: 10px;
+          background-color: cadetblue;
+          border-radius: 7px;
+          color: #fff;
+          font-weight: bold;
+          border: none;
+      }
+
+      /* alert goes here */
+      .successAlrt {
+          border-radius: 5px;
+          position: fixed;
+          background-color: rgb(255, 255, 255);
+          margin: 0;
+          top: 30%;
+          left: 40%;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 2px 1px 5px 3px rgba(10, 167, 181, 0.57);
+      }
+
+      .successAlrt img {
+          width: 120px;
+      }
+
+      .successAlrt h4 {
+          font-size: 2rem;
+      }
+
+      .errorAlrt {
+          border-radius: 5px;
+          position: fixed;
+          background-color: rgb(255, 255, 255);
+          margin: 0;
+          top: 30%;
+          left: 40%;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 2px 1px 5px 3px rgba(10, 167, 181, 0.57);
+      }
+
+      .errorAlrt img {
+          width: 100px;
+      }
+
+      .errorAlrt h4 {
+          font-size: 2rem;
+      }
